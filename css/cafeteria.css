@@ -1,14 +1,106 @@
+/* Importando as fontes do google */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wdth,wght@90.1,250&display=swap');
+
 /* Zerar as margens de todos os elementos da página. Margens externas e internas */
 *{
-    margin:0x; /* margen externa*/  
-    padding:0x; /*margen interna */
+    margin:0px; /* margen externa*/  
+    padding:0px; /*margen interna */
     box-sizing: border-box;
 
 }
 
 /* Vamos adicionar uma imagem ao fundo do header */
 header{
-    background-image: url("../img/cafeteria2.jpg");
-    height: 600px;
+    background-image: url("../img/sincerely-media-VNsdEl1gORk-unsplash.jpg");
+    /* Ajustar o tamanho da imagem em 100% de largura */
+    background-size: 100%;
+    /* Ajustar a posição da imagem em x e y */
+    background-position: 0px -1000px;
+    height: 500px;
+    padding: 35px;
+
+
+}
+nav{
+    /* Tornando o conteúdo da nav flexível. Isso permite que os elementos fiquem um ao lado do outro*/
+    display: flex;
+    /* Alinhamento vertical dos elementos que estão do nav */
+    align-items: center;
+}
+
+
+h1{
+    /* Mudar a cor da letra */
+    color:rgb(46, 46, 46);
+    /* Alterar o tipo de letra */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    /* Alterar o tamanho da caixa (alta ou baixa)  */
+    text-transform: capitalize;
+    margin-right: 110px;
+
+}
+ul{
+    /* Retirar o marcador da lista */
+    list-style: none;
+
+}
+header ul li{
+    /* Vamos ajustar a disposição(display) dos itens da lista em formato de linha */
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+}
+header ul li:hover{
+    background-color: #532d20;
+}
+header ul li a{
+    color: white;
+    /* Vamos retirar o underline(sublinhado)  */
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header h2{
+    padding: 30px;
+    /*background-color: rgba(73, 73, 73, 0.3);*/
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 5px 5px 5px black;
+    
+}
+header p{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 2px black;
+    
+}
+footer{
+    background-color: rgb(39,20,20);
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+footer #rede li{
+    /* Colocar as redes em linha */
+    display: inline-block;
+    margin-right: 12px;
 
 }
