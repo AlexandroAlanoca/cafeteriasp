@@ -32,7 +32,7 @@ nav{
 
 h1{
     /* Mudar a cor da letra */
-    color:rgb(46, 46, 46);
+    color:rgb(63, 29, 29);
     /* Alterar o tipo de letra */
     font-family:Arial, Helvetica, sans-serif;
     font-size: 50pt;
@@ -103,4 +103,41 @@ footer #rede li{
     display: inline-block;
     margin-right: 12px;
 
+}
+
+    /* ----Formatação da página index---- */
+main h2 {
+    font-family: "Dancing Script", cursive;
+    margin-left: 70px;
+    font-size: 30pt;
+    color:rgb(92, 26, 26);
+}
+
+main #home p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 60px 20px 60px;
+    text-align: justify;  /*Alinhar dos dois lados*/
+    font-size: 12pt;  
+    /*O comando line-height define a altura da linha (espaçamento entre linhas). Estamos usando uma altura de 1,5, ou seja, o tamanho da fonte mais meio do tamanho da fonte*/
+    line-height: 18pt;
+
+}
+main #imghome img{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    /* Arrendodar os cantos da imagem  */
+    border-radius: 90px;
+    /*Vamos aplicar um efeito de transparência a imagem usando o comando opacity que varia entre 0 e 1, ou seja, se você aplicar 0.6, significa que está usando 60% de opacidade. Isto representa 60% de visibilidade */
+    opacity: 0.6;
+    /* O comando transition pode realizar uma animação de transição, que você pode configurar com o tipo de transição e o tempo da transição */
+    transition: ease 1s;
+    
+}
+
+main #imghome img:hover{
+    opacity: 1;
+}
+main #imghome {
+    text-align: center;
 }
