@@ -240,4 +240,16 @@ main #categoriacardapio{
     height: 300px;
     margin: 50px;
  }
+
+ #mapa {
+    text-align: center;
+
+ }
+
+ #mapa iframe{
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+
+ }
  
