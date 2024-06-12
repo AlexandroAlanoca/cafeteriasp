@@ -10,6 +10,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Vamos adicionar uma imagem ao fundo do header */
 header{
     background-image: url("../img/sincerely-media-VNsdEl1gORk-unsplash.jpg");
@@ -32,13 +36,14 @@ nav{
 
 h1{
     /* Mudar a cor da letra */
-    color:rgb(63, 29, 29);
+    color:rgb(153, 78, 49);
     /* Alterar o tipo de letra */
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 50pt;
+    font-size: 45pt;
     /* Alterar o tamanho da caixa (alta ou baixa)  */
     text-transform: capitalize;
-    margin-right: 110px;
+    margin-right: 100px;
+    text-shadow: 3px 3px 5px black;
 
 }
 ul{
@@ -52,6 +57,7 @@ header ul li{
     margin-left: 10px;
     margin-right: 10px;
     padding: 7px;
+    font-size: 20px;
 }
 header ul li:hover{
     background-color: #532d20;
@@ -73,6 +79,7 @@ header h2{
     font-size: 50px;
     font-weight: 500;
     text-shadow: 5px 5px 5px black;
+    margin-right: 10px;
     
 }
 header p{
@@ -172,6 +179,48 @@ main #categoriacardapio{
 }
 .itemcardapio a{
     font-family: arial;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.item{
+    width: 32%;
+    display: flex;
+    margin: 20px;
+}
+.item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.item div h3{
+    font-family: arial;
+    font-size: 12pt;
+    margin: 5px;
+}
+.item div p{
+    font-family: arial;
+    margin: 5px;
+    font-size: 11pt;
+    line-height: 15pt;
+}
+
+#cafes h2{ 
+    font-size: 40pt;
+    margin-left: 660px;
+ 
+}
+ /* section h2{  
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}*/
