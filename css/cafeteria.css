@@ -219,8 +219,25 @@ main #categoriacardapio{
     margin-left: 660px;
  
 }
- /* section h2{  
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}*/
+ /* ---Pagina quem somos--- */
+
+ main p{
+    font-family: arial;
+    font-size: 12pt;
+    line-height: 18pt;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+ }
+
+ #video{  /* # usado para identificar div*/
+    text-align: center;
+ }
+
+ #video iframe{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+ }
+ 
