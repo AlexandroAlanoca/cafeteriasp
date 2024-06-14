@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8"> <!-- utf-8 formataçao de caracteres acentuado -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria SP</title>
     <link rel="stylesheet" href="css/cafeteria.css">
 </head>
+
 <body>
-    <header> 
-       
+    <header>
+
 
         <!-- Criar a estrutura de links usando uma lista não ordenada -->
         <nav>
-         <!-- Vamos usar o h1 para definir o titulo do nosso site. A tag h1 deve aparecer apenas uma vez na página  -->
-        <h1>Cafeteria SP</h1>
+            <!-- Vamos usar o h1 para definir o titulo do nosso site. A tag h1 deve aparecer apenas uma vez na página  -->
+            <h1>Cafeteria SP</h1>
             <ul>
                 <li><a href="index.html"> home </a></li>
                 <li><a href="cardapio.html"> cardápio </a></li>
@@ -23,11 +25,35 @@
             </ul>
         </nav>
         <h2>Venha conheçer nossa cafeteria</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum enim numquam cum obcaecati? Deleniti laborum earum voluptas unde vel perspiciatis dicta aspernatur itaque ipsa, dolores, minus illo mollitia fugit a.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum enim numquam cum obcaecati? Deleniti
+            laborum earum voluptas unde vel perspiciatis dicta aspernatur itaque ipsa, dolores, minus illo mollitia
+            fugit a.</p>
 
     </header>
     <main>
+
+        <h2>Fale conosco</h2>
+        <form action="">
+            <input type="text" placeholder="Nome Completo" required>
+            <input type="tel" placeholder="Telefone" required maxlength="11">
+            <input type="email" placeholder="E-Mail">
+            <select name="" id="">
+                <option value="Selecione">Selecione um assunto</option>
+                <option value="Sugestão">Sugestão</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Solicitação">Solicitação</option>
+
+            </select>
+            <textarea></textarea>
+            <span><input type="checkbox">Desejo receber notícias</span>
+            <input type="submit" value="Enviar">
+        </form>
+
+
     </main>
+
     <footer>
         <div id="end">
             Rua Paulo Gouveia, 105 - Jardim das Américas <br>
@@ -38,7 +64,8 @@
             <ul>
                 <li>
                     <a href="https://www.facebook.com/" target="_blank">
-                        <img src="img/facebook.png" alt="Acesse a nossa página do facebook">  <!--src(source) serve para localizar o arquivo no dispositivo-->
+                        <img src="img/facebook.png" alt="Acesse a nossa página do facebook">
+                        <!--src(source) serve para localizar o arquivo no dispositivo-->
                     </a>
                 </li>
 
@@ -59,4 +86,5 @@
 
 
 </body>
+
 </html>

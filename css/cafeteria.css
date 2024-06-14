@@ -182,6 +182,7 @@ main #categoriacardapio{
     font-size: 18px;
     text-decoration: none;
     color: black;
+
 }
 
 .linha{
@@ -216,9 +217,34 @@ main #categoriacardapio{
 
 #cafes h2{ 
     font-size: 40pt;
-    margin-left: 660px;
- 
+    /* margin-left: 660px; */
+    text-align: center;
+    margin-top: 30px;
 }
+
+#salgados h2{
+        font-size: 40pt;
+        /* margin-left: 660px; */
+        text-align: center;
+        margin-top: 30px;
+}
+
+#doces h2{
+    font-size: 40pt;
+    /* margin-left: 660px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sucos h2{
+    font-size: 40pt;
+    /* margin-left: 660px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
  /* ---Pagina quem somos--- */
 
  main p{
@@ -247,9 +273,65 @@ main #categoriacardapio{
  }
 
  #mapa iframe{
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 400px;
     margin: 50px;
+    margin-top: -10px;
 
  }
+
+ /* ----contato---- */
  
+form{
+    /* border: 5px solid red; */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px silver;
+}
+
+input[type=text], 
+input[type=tel], 
+input[type=email],
+select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none; /*retira a borda ativa do input*/
+    border-bottom: 1px dashed silver; /* o comando double so funciona com numero par de tamanho*/
+
+}
+
+select{
+    width: 40%;
+
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    outline-color: rgb(136, 38, 38);
+    resize: none;/*Bloqueia o redimensionamento da textarea*/
+
+}
+
+form span{
+    font-family: arial;
+    font-size: 14px;
+
+
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(80, 35, 16) ;
+    cursor: pointer; /*mouse vira uma mão(apontador)*/
+    display: block;
+    margin: 10px auto 10px auto ;
+    color: white;
+}
